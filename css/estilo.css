@@ -245,6 +245,11 @@ textarea {
     margin-top: 30px;
 }
 
+#carouselExampleIndicators {
+    background: black;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 .animacao {
     position: relative;
