@@ -1,229 +1,248 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Tudo sobre games e relacionados">
-        <meta name="author" content="Natã - IFRS">
-        <meta property="og:title" content="Universo Gamer">
-        <meta property="og:description" content="Descubra curiosidades e informações sobre a cultura gamer">
-        <meta property="og:image" content="img/logo.webp">
-        <meta property="og:url" content="https://costanata00.github.io/TrabGrid/">
-        <meta property="og:type" content="website">
-        <meta property="twitter:card" content="img/logo.webp" >
-        <meta property="twitter:url" content="costanata00.github.io/trabGrid/" >
-        <meta property="twitter:title" content="Universo Gamer" >
-        <meta property="twitter:description" content="Descubra curiosidades e informações sobre a cultura gamer" >
-        <meta property="twitter:image" content="img/logo.webp" >
-        <link rel="icon" href="img/logo.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css" >
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <title>UniversoGamer</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tudo sobre games e relacionados">
+    <meta name="author" content="Natã - IFRS">
+    <meta property="og:title" content="Universo Gamer">
+    <meta property="og:description" content="Descubra curiosidades e informações sobre a cultura gamer">
+    <meta property="og:image" content="img/logo.webp">
+    <meta property="og:url" content="https://costanata00.github.io/TrabGrid/">
+    <meta property="og:type" content="website">
+    <meta property="twitter:card" content="img/logo.webp">
+    <meta property="twitter:url" content="costanata00.github.io/trabGrid/">
+    <meta property="twitter:title" content="Universo Gamer">
+    <meta property="twitter:description" content="Descubra curiosidades e informações sobre a cultura gamer">
+    <meta property="twitter:image" content="img/logo.webp">
+    <link rel="icon" href="img/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>UniversoGamer</title>
+</head>
+
+<body>
     <header class="fixed-top" style="z-index: 1041;">
-            <div class="header">
-                <figure>
-                    <img src="img/logo.webp" alt="logo">
-                    <figcaption>UniversoGamer</figcaption>
+        <div class="header">
+            <figure>
+                <img src="img/logo.webp" alt="logo">
+                <figcaption>UniversoGamer</figcaption>
+            </figure>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark navigation">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#populares">Populares</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#desconto">Desconto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cadastro">Cadastro</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hardware">Hardware</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#animação">Animação</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1 id="populares">Jogos populares</h1>
+            <div class="jogosPopulares">
+                <figure class="jogo">
+                    <img src="img/rdr2.webp" alt="Red Dead 2">
+                    <figcaption>
+                        <h4>Red Dead Redemption 2</h4>
+                        <p>Red Dead Redemption 2 é uma jornada épica no Velho Oeste, onde você vive como Arthur Morgan,
+                            um fora-da-lei em busca de redenção em um mundo em mudança.</p>
+                    </figcaption>
+                </figure>
+                <figure class="jogo">
+                    <img src="img/liesofp.webp" alt="Lies of P">
+                    <figcaption>
+                        <h4>Lies of P</h4>
+                        <p>Em um mundo sombrio inspirado em Pinóquio, Lies of P é um RPG de ação onde você enfrenta
+                            criaturas mecânicas, faz escolhas morais e descobre a verdade por trás de mentiras que
+                            definem quem você realmente é.</p>
+                    </figcaption>
+                </figure>
+                <figure class="jogo">
+                    <img src="img/silenthill2.webp" alt="Silent Hill 2">
+                    <figcaption>
+                        <h4>Silent Hill 2</h4>
+                        <p>Reviva o terror psicológico de Silent Hill 2 em uma recriação moderna e sombria, onde James
+                            Sunderland enfrenta horrores e segredos enterrados em sua própria mente enquanto busca por
+                            sua esposa perdida.</p>
+                    </figcaption>
                 </figure>
             </div>
-        <nav class="navbar navbar-expand-lg navbar-dark navigation">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="#populares">Populares</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#desconto">Desconto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#cadastro">Cadastro</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#hardware">Hardware</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#animação">Animação</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+        </section>
+        <section>
+            <h1 id="desconto">Jogos em desconto</h1>
+            <div class="jogosDesconto">
+                <figure class="jogo">
+                    <img src="img/mulletmadjack.webp" alt="Mullet Madjack" loading="lazy">
+                    <figcaption>
+                        <h4>Mullet Madjack</h4>
+                        <h5>50% Desconto</h5>
+                        <p>Em um futuro neon e caótico, Mullet MadJack mistura ação frenética em primeira pessoa com
+                            visual de anime dos anos 90, onde você tem 10 segundos para matar ou morrer — adrenalina
+                            pura do início ao fim.</p>
+                    </figcaption>
+                </figure>
+                <figure class="jogo">
+                    <img src="img/ultrakill.webp" alt="Ultrakill" loading="lazy">
+                    <figcaption>
+                        <h4>ULTRAKILL</h4>
+                        <h5>30% Desconto</h5>
+                        <p>ULTRAKILL é um FPS ultraviolento em estilo retrô, onde você desce aos infernos explodindo
+                            demônios a toda velocidade, com combate sangrento, estilo e combos dignos de um
+                            hack'n'slash.</p>
+                    </figcaption>
+                </figure>
+                <figure class="jogo">
+                    <img src="img/enterthegungeon.webp" alt="Enter the Gungeon" loading="lazy">
+                    <figcaption>
+                        <h4>Enter the Gungeon</h4>
+                        <h5>40% Desconto</h5>
+                        <p>Dispare, role e sobreviva em Enter the Gungeon — um dungeon crawler caótico onde cada sala
+                            traz novos inimigos, armas absurdas e desafios em busca da lendária arma que pode apagar o
+                            passado.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <div class="formulario">
+                <h1 id="cadastro">Cadastre-se ou envie sua opinião</h1>
+                <div class="formulariosContainer">
+                    <form>
+                        <fieldset>
+                            <legend>Cadastro</legend>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
 
-        <main>
-            <section>
-                <h1 id="populares">Jogos populares</h1>
-                <div class="jogosPopulares">
-                    <figure class="jogo">
-                        <img src="img/rdr2.webp" alt="Red Dead 2">
-                        <figcaption>
-                            <h4>Red Dead Redemption 2</h4>
-                            <p>Red Dead Redemption 2 é uma jornada épica no Velho Oeste, onde você vive como Arthur Morgan, um fora-da-lei em busca de redenção em um mundo em mudança.</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="jogo">
-                        <img src="img/liesofp.webp" alt="Lies of P">
-                        <figcaption>
-                            <h4>Lies of P</h4>
-                            <p>Em um mundo sombrio inspirado em Pinóquio, Lies of P é um RPG de ação onde você enfrenta criaturas mecânicas, faz escolhas morais e descobre a verdade por trás de mentiras que definem quem você realmente é.</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="jogo">
-                        <img src="img/silenthill2.webp" alt="Silent Hill 2">
-                        <figcaption>
-                            <h4>Silent Hill 2</h4>
-                            <p>Reviva o terror psicológico de Silent Hill 2 em uma recriação moderna e sombria, onde James Sunderland enfrenta horrores e segredos enterrados em sua própria mente enquanto busca por sua esposa perdida.</p>
-                        </figcaption>
-                    </figure>
-                </div>                
-            </section>
-            <section>
-                <h1 id="desconto">Jogos em desconto</h1>
-                <div class="jogosDesconto">
-                    <figure class="jogo">
-                        <img src="img/mulletmadjack.webp" alt="Mullet Madjack" loading="lazy">
-                        <figcaption>
-                            <h4>Mullet Madjack</h4>
-                            <h5>50% Desconto</h5>
-                            <p>Em um futuro neon e caótico, Mullet MadJack mistura ação frenética em primeira pessoa com visual de anime dos anos 90, onde você tem 10 segundos para matar ou morrer — adrenalina pura do início ao fim.</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="jogo">
-                        <img src="img/ultrakill.webp" alt="Ultrakill" loading="lazy">
-                        <figcaption>
-                            <h4>ULTRAKILL</h4>
-                            <h5>30% Desconto</h5>
-                            <p>ULTRAKILL é um FPS ultraviolento em estilo retrô, onde você desce aos infernos explodindo demônios a toda velocidade, com combate sangrento, estilo e combos dignos de um hack'n'slash.</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="jogo">
-                        <img src="img/enterthegungeon.webp" alt="Enter the Gungeon" loading="lazy">
-                        <figcaption>
-                            <h4>Enter the Gungeon</h4>
-                            <h5>40% Desconto</h5>
-                            <p>Dispare, role e sobreviva em Enter the Gungeon — um dungeon crawler caótico onde cada sala traz novos inimigos, armas absurdas e desafios em busca da lendária arma que pode apagar o passado.</p>
-                        </figcaption>
-                    </figure>
-                </div>      
-            </section>
-            <section>
-                <div class="formulario">
-                    <h1 id="cadastro">Cadastre-se ou envie sua opinião</h1>
-                    <div class="formulariosContainer">
-                        <form>
-                            <fieldset>
-                                <legend>Cadastro</legend>
-                                <label for="nome">Nome:</label>
-                                <input type="text" id="nome" name="nome" required>
-            
-                                <label for="email">E-mail:</label>
-                                <input type="email" id="email" name="email" required>
-            
-                                <label for="senha">Senha:</label>
-                                <input type="password" id="senha" name="senha" required>
-            
-                                <label for="nascimento">Data de nascimento:</label>
-                                <input type="date" id="nascimento" name="nascimento" required>
-            
-                                <label for="genero">Gênero:</label>
-                                <select id="genero" name="genero">
-                                    <option value="masculino">Masculino</option>
-                                    <option value="feminino">Feminino</option>
-                                    <option value="outro">Outro</option>
-                                    <option value="naoquer">Não quero dizer</option>
-                                </select>
-                                <button type="submit">Cadastrar</button>
-                            </fieldset>
-                        </form>
-                        <form>
-                            <fieldset>
-                                <legend>Fale conosco</legend>
-            
-                                <label for="nomeContato">Nome:</label>
-                                <input type="text" id="nomeContato" name="nomeContato" required>
-            
-                                <label for="plataforma">Plataforma:</label>
-                                <select id="plataforma" name="plataforma">
-                                    <option value="PC">PC</option>
-                                    <option value="Console">Console</option>
-                                    <option value="outro">Outro</option>
-                                </select>
-                                <label for="jogofav">Jogo Favorito(opcional):</label>
-                                <input type="text" id="jogofav" name="jogofav">                                
-                                <label for="telefone">Tele fone(opcional):</label>
-                                <input type="tel" id="telefone" name="telefone">
-            
-                                <label for="sugestao">Sugestão:</label>
-                                <textarea id="sugestao" name="sugestao" rows="2"></textarea>
-                                <button type="submit">Enviar</button>
-                            </fieldset>
-                        </form>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="senha">Senha:</label>
+                            <input type="password" id="senha" name="senha" required>
+
+                            <label for="nascimento">Data de nascimento:</label>
+                            <input type="date" id="nascimento" name="nascimento" required>
+
+                            <label for="genero">Gênero:</label>
+                            <select id="genero" name="genero">
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="outro">Outro</option>
+                                <option value="naoquer">Não quero dizer</option>
+                            </select>
+                            <button type="submit">Cadastrar</button>
+                        </fieldset>
+                    </form>
+                    <form>
+                        <fieldset>
+                            <legend>Fale conosco</legend>
+
+                            <label for="nomeContato">Nome:</label>
+                            <input type="text" id="nomeContato" name="nomeContato" required>
+
+                            <label for="plataforma">Plataforma:</label>
+                            <select id="plataforma" name="plataforma">
+                                <option value="PC">PC</option>
+                                <option value="Console">Console</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                            <label for="jogofav">Jogo Favorito(opcional):</label>
+                            <input type="text" id="jogofav" name="jogofav">
+                            <label for="telefone">Telefone(opcional):</label>
+                            <input type="tel" id="telefone" name="telefone">
+
+                            <label for="sugestao">Sugestão:</label>
+                            <textarea id="sugestao" name="sugestao" rows="2"></textarea>
+                            <button type="submit">Enviar</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 id="galeria">Galeria de Imagens</h1>
+            <div class="Galeria">
+                <div class="foto foto1"></div>
+                <div class="foto foto2"></div>
+                <div class="foto foto3"></div>
+                <div class="foto foto4"></div>
+                <div class="foto foto5"></div>
+            </div>
+        </section>
+        <section id="hardware" class="text-center p-5">
+            <h2>Ofertas de Hardware</h2>
+            <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/xbox.webp" class="d-block w-100" alt="Xbox Series X">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/ps5.webp" class="d-block w-100" alt="Playstation 5">
                     </div>
                 </div>
-                </section>
-                <section>
-                    <h1 id="galeria">Galeria de Imagens</h1>
-                    <div class="Galeria">
-                    <div class="foto foto1" ></div>
-                    <div class="foto foto2" ></div>
-                    <div class="foto foto3" ></div>
-                    <div class="foto foto4" ></div>
-                    <div class="foto foto5" ></div>
-                    </div>
-                </section>
-                <section id="hardware" class="text-center p-5">
-                    <h2>Ofertas de Hardware</h2>
-                    <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./img/xbox.webp" class="d-block w-100" alt="Xbox Series X">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/ps5.webp" class="d-block w-100" alt="Playstation 5">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                    <div class="table-responsive mt-5">
-                        <table class="table table-striped table-bordered w-75 mx-auto">
-                            <thead class="table-dark">
-                                <tr>
-                                    <th>Produto</th>
-                                    <th>Preço</th>
-                                    <th>Desconto</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Xbox Series X </td>
-                                    <td>R$ 4.099,00</td>
-                                    <td>10%</td>
-                                </tr>
-                                <tr>
-                                    <td>Playstation 5</td>
-                                    <td>R$ 3.650,00</td>
-                                    <td>15%</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-                <section>
-                    <h1 id="animação">Animação</h1>
-                    <div class="animacao">
-                        <div class="circulo"></div>
-                    </div>
-                </section>
-        </main>
-        <footer  id="footer">
-            <p> ©2025 UniversoGamer. Todos os direitos reservados.</p>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
-    </html>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev" aria-label="Anterior">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next" aria-label="Próximo">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+            <div class="table-responsive mt-5">
+                <table class="table table-striped table-bordered w-75 mx-auto">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Desconto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Xbox Series X </td>
+                            <td>R$ 4.099,00</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>Playstation 5</td>
+                            <td>R$ 3.650,00</td>
+                            <td>15%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h1 id="animação">Animação</h1>
+            <div class="animacao">
+                <div class="circulo"></div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <p> ©2025 UniversoGamer. Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
